@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=78,<85"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "compliance-evidence-compiler"
+version = "0.1.2a1"
+description = "Experimental local policy applicability and evidence compilation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0 AND MIT"
+license-files = ["LICENSE", "NOTICE", "THIRD-PARTY-NOTICES.md", "cec/vendor/LICENSE.*.txt"]
+authors = [{name = "RUSSELL PHILIP SMITHSON"}]
+dependencies = ["jsonschema>=4.26.0,<5"]
+
+[tool.setuptools.packages.find]
+include = ["cec*"]
+
+[tool.setuptools.package-data]
+"cec" = ["schemas/*.json"]
+"cec.vendor" = ["LICENSE.*.txt"]

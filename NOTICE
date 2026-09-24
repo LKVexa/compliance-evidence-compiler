@@ -1,0 +1,12 @@
+Compliance Evidence Compiler
+Copyright 2026 RUSSELL PHILIP SMITHSON
+
+Original project code and September 2026 modifications are licensed under the
+Apache License, Version 2.0. See LICENSE.
+
+The modified condition evaluator derives from amplifier-collection-recipes,
+Copyright (c) Microsoft Corporation, under the MIT License.
+The full upstream license remains in
+cec/vendor/LICENSE.amplifier-collection-recipes.txt.
+See THIRD-PARTY-NOTICES.md for provenance and dependency attribution.
+This NOTICE does not replace upstream license terms.

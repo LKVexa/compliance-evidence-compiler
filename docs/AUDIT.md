@@ -41,6 +41,9 @@ retained in BASELINE_CHECK_RUNS.json. CI verifies four Linux/Windows/Python jobs
 jsonschema 4.26.0 was verified against its authoritative PyPI release page:
 https://pypi.org/project/jsonschema/ . requirements.txt pins the tested transitive
 set. pip-audit 2.10.1 scans that installed set; see DEPENDENCY_AUDIT.json.
+Initial remote CI caught rpds-py 2026.6.3 requiring Python >=3.11. Requirements
+now select rpds-py 0.30.0 for Python 3.10; that version's scan is recorded in
+DEPENDENCY_AUDIT_PY310.json. The corrected matrix is rerun before publication.
 This scan addresses known dependency advisories, not application correctness.
 
 Apache 2.0 LICENSE, NOTICE, README, pinned-action CI, and dependency update

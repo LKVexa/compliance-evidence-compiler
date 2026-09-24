@@ -1,0 +1,139 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Compliance Evidence Compiler Execution Record",
+  "type": "object",
+  "required": [
+    "item_id",
+    "status",
+    "scope_authority",
+    "work_performed",
+    "artifacts",
+    "verification",
+    "evidence",
+    "guardrail_checks",
+    "blockers"
+  ],
+  "properties": {
+    "item_id": {
+      "type": "string"
+    },
+    "parent_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "NOT_STARTED",
+        "READY",
+        "IN_PROGRESS",
+        "NEEDS_DECISION",
+        "NEEDS_EVIDENCE",
+        "BLOCKED",
+        "VERIFYING",
+        "HUMAN_REVIEW",
+        "DONE",
+        "REJECTED",
+        "ABORTED"
+      ]
+    },
+    "owner": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "priority": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "phase": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "target_release": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "scope_authority": {
+      "type": "object"
+    },
+    "pinned_versions": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "work_performed": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "verification": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "guardrail_checks": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "blockers": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "acceptance": {
+      "type": "object"
+    },
+    "acceptance_reviewer": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "completion_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

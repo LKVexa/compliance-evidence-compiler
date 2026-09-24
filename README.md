@@ -18,6 +18,7 @@ python -m unittest discover -s tests -t .
 
 The runtime dependency is jsonschema; requirements.txt records the tested
 transitive set. CI runs on Linux Python 3.10/3.12/3.14 and Windows Python 3.12.
+Python 3.10 selects rpds-py 0.30.0; newer Python selects rpds-py 2026.6.3.
 There are 54 tests, including 24 new security and packaging regressions.
 
 ## Example

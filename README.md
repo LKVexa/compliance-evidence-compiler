@@ -85,7 +85,9 @@ this release's completion claim.
 
 ## License
 
-Copyright 2026 **RUSSELL PHILIP SMITHSON**.
-[Apache License 2.0](LICENSE) and [NOTICE](NOTICE) apply to original code and
+Copyright (C) 2026 **RUSSELL PHILIP SMITHSON**.
+[GNU General Public License, version 3 only (GPL-3.0-only)](LICENSE) and [NOTICE](NOTICE) apply to original code and
 permitted modifications. The modified Microsoft condition evaluator retains MIT
 terms; see [third-party notices](THIRD-PARTY-NOTICES.md).
+
+See [COPYRIGHT](COPYRIGHT) for the project copyright and GPL notice.

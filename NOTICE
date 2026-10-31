@@ -1,8 +1,9 @@
 Compliance Evidence Compiler
-Copyright 2026 RUSSELL PHILIP SMITHSON
+Copyright (C) 2026 RUSSELL PHILIP SMITHSON
+SPDX-License-Identifier: GPL-3.0-only
 
 Original project code and September 2026 modifications are licensed under the
-Apache License, Version 2.0. See LICENSE.
+GNU General Public License, version 3 only (GPL-3.0-only). See LICENSE.
 
 The modified condition evaluator derives from amplifier-collection-recipes,
 Copyright (c) Microsoft Corporation, under the MIT License.

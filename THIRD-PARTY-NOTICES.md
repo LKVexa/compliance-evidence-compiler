@@ -26,7 +26,7 @@
 ## September 2026 modifications
 The condition evaluator now tokenizes and fully parses bounded expressions.
 The internal ledger implementation is shared with the R08 maintenance release
-(original project modifications, Apache 2.0); it is not transplanted donor code.
+(original project modifications, GPL-3.0-only); it is not transplanted donor code.
 The schema is also copied unchanged to cec/schemas for installed-package loading.
 
 Installed dependencies retain their own licenses: jsonschema and
